@@ -1,19 +1,19 @@
-Welcome to Lumache's documentation!
+Bem vindo(a) à documentação da SIAPPA!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**SIAPPA** sempre está trabalhando para melhorar
+a experiência de uso dos sistemas que fornece.
+Contudo, estamos disponibilizando a documentação
+de cada módulo com um *simples* e *intuitivo* wiki.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Verifique a seção: doc: `usage` para mais informações, incluindo
+como: ref: `installation` o projeto.
 
 .. note::
 
    This project is under active development.
 
-Contents
+Conteúdos
 --------
 
 .. toctree::
