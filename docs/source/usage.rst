@@ -1,34 +1,31 @@
-Usage
+Usabilidade
 =====
 
 .. _installation:
 
-Installation
+Começar
 ------------
 
-To use Lumache, first install it using pip:
+Para usar o ISSQN Web SIAPPA é necessário ter um cadastro no site
+e é necessário que esteja ativo.
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
+Criando um cadastro para sediados
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Se o contribuinte é sediado no município e apto para realizar
+emissões de NFS-e, entre em contato com o ``departamento de tributos 
+do município em questão`` para realizar o cadastro.
 
-.. autofunction:: lumache.get_random_ingredients
+Criando um cadastro para tomadores eventual
+----------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Se o contribuinte não tem cadastro junto ao município ou não é 
+sediado no município e é tomador de um serviço que a atividade
+incide ISS com ``retenção na fonte``, acesse a opção de Eventual
+e realize o seu cadastro clicando na opção ``primeiro acesso``.
 
-.. autoexception:: lumache.InvalidKindError
 
-For example:
+Um exemplo:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+a
 
